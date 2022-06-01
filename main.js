@@ -37,6 +37,7 @@ const updateCliente = (index,cliente) =>{
   let dbCliente = readCliente();
   dbCliente[index] = cliente;
   sendLocalStorage(dbCliente);
+  
 }
 
 
